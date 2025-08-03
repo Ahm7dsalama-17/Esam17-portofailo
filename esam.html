@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>عصام محمد عبدالهادي</title>
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            transition: background-color 0.4s, color 0.4s;
+        }
+
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        .toggle-btn {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            padding: 8px 16px;
+            background-color: white;
+            color: #004080;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 20px;
+            margin: 10px auto;
+            max-width: 800px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #004080;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .contact span {
+            display: inline-block;
+            margin: 5px 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        /* الوضع الليلي */
+        body.dark-mode {
+            background-color: #1c1c1c;
+            color: #f0f0f0;
+        }
+
+        body.dark-mode .section {
+            background-color: #2a2a2a;
+        }
+
+        body.dark-mode h2 {
+            color: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>عصام محمد عبدالهادي عبدالفتاح</h1>
+        <p>محاسب عام</p>
+        <button class="toggle-btn" onclick="toggleMode()">🌓 الوضع الليلي</button>
+    </header>
+
+    <div class="section contact">
+        <h2>معلومات الاتصال</h2>
+        <span>📍 السعودية - جدة حى الفيحاء - الرياض حى اليرموك</span>
+        <span>📅 22-11-1998</span>
+        <span>📞 +966559099447</span>
+        <a href="mailto:esamm5459@gmail.com">📧 esamm5459@gmail.com</a>
+    </div>
+
+    <div class="section">
+        <h2>الهدف الوظيفي</h2>
+        <p>
+            العمل على تقديم تحليلات مالية دقيقة وإعداد تقارير مالية استراتيجية تدعم اتخاذ القرارات...
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>المؤهلات الأكاديمية</h2>
+        <p>درجة بكالوريوس تجارة - شعبة محاسبة - جامعة كفر الشيخ (2016 - 2020)</p>
+    </div>
+
+    <div class="section">
+        <h2>الخبرات العملية</h2>
+        <ul>
+            <li>محاسب - مصنع الزهراني للبلك الآلي - الطائف</li>
+            <li>محاسب أول - مؤسسة خير المنال التجارية - جدة</li>
+            <li>محاسب عام - شركة بلوغيت العربية للمقاولات</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>المهارات</h2>
+        <ul>
+            <li>التسجيل المحاسبي وفق IFRS</li>
+            <li>استخدام أنظمة ERP مثل دفترة، إنفوسوفت، التالي برايم</li>
+            <li>إعداد التقارير المالية والدورية</li>
+            <li>الامتثال الضريبي والزكاة</li>
+            <li>التعامل مع الحسابات البنكية والرواتب WPS</li>
+            <li>الخبرة في الموارد البشرية والتأمينات والتأشيرات</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>اللغات</h2>
+        <ul>
+            <li>اللغة العربية: ممتاز</li>
+            <li>اللغة الإنجليزية: جيد</li>
+        </ul>
+    </div>
+
+    <footer>
+        &copy; 2025 - جميع الحقوق محفوظة لعصام محمد عبدالهادي
+    </footer>
+
+    <!-- كود جافاسكريبت -->
+    <script>
+        // زر الوضع الليلي
+        function toggleMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+
+        // رسالة ترحيب
+        window.onload = function () {
+            alert("مرحبًا بك في البورتفوليو الخاص بعصام محمد 🌟");
+        }
+    </script>
+
+</body>
+
+</html>
